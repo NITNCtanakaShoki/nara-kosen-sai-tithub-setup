@@ -66,6 +66,7 @@
         left: 10px;
         top: 10px;
         font-weight: bold;
+        border-right: none;
     }
     .container > .component:last-of-type:before {
         content: '挑戦';
@@ -85,7 +86,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 1px solid gray;
+        border: 1px solid rgb(128, 128, 128);
         position: relative;
     }
 </style>
