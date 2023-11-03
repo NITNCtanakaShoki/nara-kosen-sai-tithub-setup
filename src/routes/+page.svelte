@@ -1,12 +1,10 @@
 <script>
-    import CompleteBeginner from "$lib/workspace/CompleteBeginner.svelte";
-    import Beginner from "$lib/complete/Beginner.svelte";
-    import CompleteIntermediate from "$lib/workspace/CompleteIntermediate.svelte";
-    import Intermediate from "$lib/complete/Intermediate.svelte";
-    import CompleteAdvanced from "$lib/workspace/CompleteAdvanced.svelte";
-    import Advanced from "$lib/complete/Advanced.svelte";
-
-
+import CompleteBeginner from "$lib/complete/CompleteBeginner.svelte";
+import Beginner from "$lib/workspace/Beginner.svelte";
+import CompleteIntermediate from "$lib/complete/CompleteIntermediate.svelte";
+import Intermediate from "$lib/workspace/Intermediate.svelte";
+import CompleteAdvanced from "$lib/complete/CompleteAdvanced.svelte";
+import Advanced from "$lib/workspace/Advanced.svelte";
 </script>
 
 <main>
