@@ -89,6 +89,18 @@ npm run dev # サーバーを立ち上げる
 
 ChromeやEdge、Safariなどで[http://localhost:5173](http://localhost:5173)にアクセスしてください。
 
+## 初級に挑戦
+
+[初級: 飾り文字](https://tithub.tech/creaft/nara-kosen-sai-beginner)のチュートリアルをするには、VScodeで`src/lib/workspace/Beginner.svelte`を開いて編集してください
+
+## 中級に挑戦
+
+[中級: カーソルを置くと動くボタン](https://tithub.tech/creaft/nara-kosen-sai-intermediate)のチュートリアルをするには、VScodeで`src/lib/workspace/Intermediate.svelte`を開いて編集してください
+
+## 上級に挑戦
+
+[上級: ハンバーガーメニューボタン](https://tithub.tech/creaft/nara-kosen-sai-advanced)のチュートリアルをするには、VScodeで`src/lib/workspace/Advanced.svelte`を開いて編集してください
+
 ## エラーが出る場合
 
 ### NodeJSのバージョン不足
