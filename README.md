@@ -1,38 +1,79 @@
-# create-svelte
+# 奈良高専祭 2023 情報工学科展 TitHubのSetup
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## Install Git
 
-## Creating a project
+### for macOS
 
-If you're seeing this, you've probably already done this step. Congrats!
+macの場合は`git`と言うツールがすでにインストールされているため、特にすることはありません。`ターミナル`と言うアプリを開いて
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+```shell
+git --version
 ```
 
-## Developing
+とコマンドを打ち込んでバージョンが表示されればOKです。
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+### for Windows
 
-```bash
-npm run dev
+Windowsの場合は`git`が最初からインストールされていないため、[http://git-scm.com/download/win](http://git-scm.com/download/win)にアクセスしてGitをインストールしてください
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+`Git Bash`というアプリを開いて
+
+```shell
+git --version
 ```
 
-## Building
+とコマンドを打ち込んでバージョンが表示されればOKです。
 
-To create a production version of your app:
+## Install Node.js
 
-```bash
-npm run build
+NodeJSがインストール済みでない場合は、[https://nodejs.org/en/download](https://nodejs.org/en/download)からNodeJSをインストールしてください。
+
+Windowsであれば、`Windows Installer (.msi) 64-bit`をダウンロードしてインストールしてください。
+
+macOSであれば、`macOS Installer (.pkg)`をインストールしてください。
+
+ターミナルまたはGit Bashを開いて
+
+```shell
+node --version
 ```
 
-You can preview the production build with `npm run preview`.
+でバージョン確認ができればOKです。
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## Git clone
+
+プロジェクトをローカルコピーします。
+GitBashやターミナルを開いて以下のコマンドでローカルコピーしてください。
+
+```shell
+cd Desktop # デスクトップに移動
+git clone https://github.com/NITNCtanakaShoki/nara-kosen-sai-tithub-setup
+```
+
+## Install VScode
+
+VScodeなどのエディターをインストールしてください。VScodeは[https://code.visualstudio.com/download](https://code.visualstudio.com/download)からダウンロードできます。
+
+VScodeを開いたら、`Svelte for VS Code`と言う拡張機能をインストールしてください。
+
+[拡張機能のインストール方法](https://learn.microsoft.com/ja-jp/power-pages/configure/vs-code-extension)
+
+## プロジェクトをVSコードで開く
+
+VScodeを開きます。アプリを起動してフォルダーを選択するか、ターミナルやGitBashで以下のコマンドを入力してください
+
+```shell
+cd Desktop/nara-kosen-sai-tithub-setup # プロジェクトに移動
+code . # VScodeで開く
+```
+
+## プロジェクトのサーバーの実行
+
+ターミナルまたはGitBashで以下のコマンドを実行してください。
+
+```shell
+cd Desktop/nara-kosen-sai-tithub-setup # プロジェクトに移動
+npm install # 依存関係をインストール
+npm run dev # サーバーを立ち上げる
+```
+
