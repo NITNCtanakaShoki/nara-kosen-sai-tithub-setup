@@ -77,3 +77,6 @@ npm install # 依存関係をインストール
 npm run dev # サーバーを立ち上げる
 ```
 
+## ブラウザでアクセスする
+
+ChromeやEdge、Safariなどで[http://localhost:5173](http://localhost:5173)にアクセスしてください。
