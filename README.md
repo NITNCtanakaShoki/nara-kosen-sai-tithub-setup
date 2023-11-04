@@ -80,3 +80,25 @@ npm run dev # サーバーを立ち上げる
 ## ブラウザでアクセスする
 
 ChromeやEdge、Safariなどで[http://localhost:5173](http://localhost:5173)にアクセスしてください。
+
+## エラーが出る場合
+
+### NodeJSのバージョン不足
+
+以下のようなエラーがnpm installで出る場合
+
+```shell
+npm WARN read-shrinkwrap This version of npm is compatible with lockfileVersion@1, but package-lock.json was generated for lockfileVersion@3. I'll try to do my best with it!
+ 
+npm ERR! code ENOTSUP
+npm ERR! notsup Unsupported engine for @sveltejs/kit@1.27.3: wanted: {"node":"^16.14 || >=18"} (current: {"node":"14.17.5","npm":"6.14.14"})
+```
+
+NodeJSのバージョンが古い可能性があります。NodeJSのバージョンを上げてください
+
+```shell
+npm install -g n
+n stable
+```
+
+バージョンが上がっていなければターミナルやVScodeを再起動してみてください
